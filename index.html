@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Real-Time interactions with WebSockets</title>
+
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/katerina.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <script src="bower_components/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="bower_components/webcomponentsjs/webcomponents-hi-sd-ce.js"></script>
+
+    <link id="link_01" rel="import" href="slides/slide_01.html">
+    <link id="link_02" rel="import" href="slides/slide_02.html">
+    <link id="link_03" rel="import" href="slides/slide_03.html">
+    <link id="link_04" rel="import" href="slides/slide_04.html">
+    <link id="link_05" rel="import" href="slides/slide_05.html">
+    <link id="link_06" rel="import" href="slides/slide_06.html">
+    <link id="link_07" rel="import" href="slides/slide_07.html">
+    <link id="link_08" rel="import" href="slides/slide_08.html">
+    <link id="link_09" rel="import" href="slides/slide_09.html">
+    <link id="link_10" rel="import" href="slides/slide_10.html">
+    <link id="link_11" rel="import" href="slides/slide_11.html">
+    <link id="link_12" rel="import" href="slides/slide_12.html">
+    <link id="link_13" rel="import" href="slides/slide_13.html">
+    <link id="link_14" rel="import" href="slides/slide_14.html">
+    <link id="link_15" rel="import" href="slides/slide_15.html">
+    <link id="link_16" rel="import" href="slides/slide_16.html">
+    <link id="link_17" rel="import" href="slides/slide_17.html">
+    <link id="link_18" rel="import" href="slides/slide_18.html">
+    <link id="link_19" rel="import" href="slides/slide_19.html">
+    <link id="link_20" rel="import" href="slides/slide_20.html">
+    <link id="link_21" rel="import" href="slides/slide_21.html">
+    <link id="link_22" rel="import" href="slides/slide_22.html">
+    <link id="link_23" rel="import" href="slides/slide_23.html">
+    <link id="link_24" rel="import" href="slides/slide_24.html">
+    <link id="link_25" rel="import" href="slides/slide_25.html">
+    <link id="link_26" rel="import" href="slides/slide_26.html">
+    <link id="link_27" rel="import" href="slides/slide_27.html">
+    <link id="link_28" rel="import" href="slides/slide_28.html">
+    <link id="link_29" rel="import" href="slides/slide_29.html">
+    <link id="link_30" rel="import" href="slides/slide_30.html">
+    <link id="link_31" rel="import" href="slides/slide_31.html">
+    <link id="link_32" rel="import" href="slides/slide_32.html">
+    <link id="link_33" rel="import" href="slides/slide_33.html">
+    <link id="link_34" rel="import" href="slides/slide_34.html">
+    <link id="link_35" rel="import" href="slides/slide_35.html">
+    <link id="link_36" rel="import" href="slides/slide_36.html">
+    <link id="link_37" rel="import" href="slides/slide_37.html">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="header">
+        <p style="float:right;">
+            <small>Sep07 #ngColombia - Medellin | @psybercity :)</small>
+        </p>
+    </div>
+    <div class="slides">
+        <section id="slide_01"></section>
+        <section id="slide_02"></section>
+        <section id="slide_03"></section>
+        <section id="slide_04"></section>
+        <section id="slide_05"></section>
+        <section id="slide_06"></section>
+        <section id="slide_07"></section>
+        <section id="slide_08"></section>
+        <section id="slide_09"></section>
+        <section id="slide_10"></section>
+        <section>
+            <section id="slide_11"></section>
+            <section id="slide_12"></section>
+            <section id="slide_13"></section>
+        </section>
+        <section>
+            <section id="slide_14"></section>
+            <section id="slide_15"></section>
+            <section id="slide_16"></section>
+        </section>
+        <section>
+            <section id="slide_17"></section>
+            <section id="slide_18"></section>
+            <section id="slide_19"></section>
+        </section>
+        <section>
+          <section id="slide_20"></section>
+          <section id="slide_21"></section>
+          <section id="slide_22"></section>
+        </section>
+        <section id="slide_23"></section>
+        <section>
+            <section id="slide_24" data-background="#fdfdfd"></section>
+            <section id="slide_25" data-background="#fdfdfd"></section>
+            <section id="slide_26" data-background="#fdfdfd"></section>
+            <section id="slide_27" data-background="#fdfdfd"></section>
+        </section>
+        <section id="slide_28"></section>
+        <section id="slide_29"></section>
+        <section id="slide_30"></section>
+        <section id="slide_31"></section>
+        <section id="slide_32"></section>
+        <section id="slide_33"></section>
+        <section id="slide_34"></section>
+        <section id="slide_35"></section>
+        <section id="slide_36"></section>
+        <section id="slide_37"></section>
+        <!--<section id="vertical">-->
+
+        <!--</section>-->
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+
+    // Load my slides
+    window.addEventListener('WebComponentsReady', function() {
+        for (let i = 1; i < 38; i++) {
+            console.log(i);
+            let index = i.toString();
+            if (i < 10) index = '0' + i;
+            let content = document.querySelector('link[rel="import"]#link_' + index).import;
+            document.getElementById("slide_" + index).appendChild(content.querySelector("div#s_" + index));
+        }
+    });
+
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        dependencies: [
+            {
+                src: 'lib/js/classList.js', condition: function () {
+                    return !document.body.classList;
+                }
+            },
+            {
+                src: 'plugin/markdown/marked.js', condition: function () {
+                    return !!document.querySelector('[data-markdown]');
+                }
+            },
+            {
+                src: 'plugin/markdown/markdown.js', condition: function () {
+                    return !!document.querySelector('[data-markdown]');
+                }
+            },
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            },
+            {src: 'plugin/search/search.js', async: true},
+            {src: 'plugin/zoom-js/zoom.js', async: true},
+            {src: 'plugin/notes/notes.js', async: true}
+        ]
+    });
+    Reveal.configure({ slideNumber: false });
+</script>
+
+</body>
+</html>

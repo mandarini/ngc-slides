@@ -1,0 +1,17 @@
+<div id="s_14">
+    <h4>DeviceOrientationEvent</h4>
+    <p class="small-letters">We'll use <code class="code-part">alpha</code> (motion of the device around the z axis, expressed in degrees: 0<sup>o</sup> to 360<sup>o</sup>),
+        <code class="code-part">beta</code> (Front to back motion around the x axis, expressed in degrees :-180<sup>o</sup> to 180<sup>o</sup>) and
+
+        <code class="code-part">gamma</code> (Left to right motion around the y axis, expressed in degrees: -90<sup>o</sup> to 90<sup>o</sup>)</p>
+    <pre class="fragment full">
+		<code class="hljs small-code" data-trim contenteditable>
+window.addEventListener('deviceorientation', function(event) {
+    const alpha = event.alpha;
+    const beta = event.beta;
+    const gamma = event.gamma;
+			...
+});
+		</code>
+	</pre>
+</div>
