@@ -151,3 +151,8 @@ span.highlighted {
 .reveal ol.small-letters li {
     font-size: 80%;
 }
+
+.reveal section img.code-img {
+  border: 0;
+  box-shadow: none;
+}
